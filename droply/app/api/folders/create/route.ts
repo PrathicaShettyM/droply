@@ -5,7 +5,6 @@ import { and, eq } from "drizzle-orm";
 import { NextRequest, NextResponse } from "next/server";
 import {v4 as uuidv4} from "uuid";
 
-
 export async function POST(request: NextRequest){
     try {
         // 1. check if the user is logged in
