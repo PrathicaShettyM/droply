@@ -1,4 +1,4 @@
-import { clerkMiddleware, createRouteMatcher, auth} from "@clerk/nextjs/server";
+import { clerkMiddleware, createRouteMatcher} from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 
 // create public and private routes
